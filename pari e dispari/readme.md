@@ -11,6 +11,12 @@ Pari e Dispari
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
 Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione). Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) Dichiariamo chi ha vinto.
 
+## Steps
+- creaiamo un prompt per scegliere pari o dispari
+- creiamo un promtp perchè scelda un numero da 1 a 5
+- Generiamo per il computer un numero random da 1 a 5
+- Stabiliamo se la somma dei due numeri sia pari o dispari e dichiariamo il vincitore
+
 
 Consigli del giorno
 Scriviamo sempre in italiano i passaggi che vogliamo fare
