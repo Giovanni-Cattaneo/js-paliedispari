@@ -8,7 +8,7 @@ let reverseWord = word.split('').reverse().join('') //split divide la stringa in
 
 console.log(reverseWord);
 
-if (word === reverseWord) {
+if (word === reverseWord) { // verifica l'uguaglianza tra word e reverseWord
     console.log("è una parola palindroma");
 } else {
     console.log("Mi dispiace non è palidroma");
