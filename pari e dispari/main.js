@@ -52,19 +52,23 @@ function oddOrEven(oddEven, userNumber){
 
     let sum = userNumber + desktopNumber
 
-    let inputEven = "Hai inserito un numero pari"
+    let inputEven = `Hai inserito un numero pari, ${userNumber}`
 
-    let inputOdd = "Hai inserito un numero dispari"
+    let inputOdd = `Hai inserito un numero dispari, ${userNumber}`
+
+    let inputDesktop = `Il computer ha scelto il numero, ${desktopNumber}`
     
     if (userNumber % 2 === 0) {
         console.log(inputEven);
+        console.log(inputDesktop); 
     } else{
         console.log(inputOdd);
+        console.log(inputDesktop);
     }
 
-    let even = `il risultato della somma è pari ${sum}`
+    let even = `il risultato della somma è pari, ${sum}`
 
-    let odd = `il risultato della somma è dispari ${sum}`
+    let odd = `il risultato della somma è dispari, ${sum}`
 
 
     if (sum % 2 === 0) {
@@ -80,9 +84,8 @@ function oddOrEven(oddEven, userNumber){
     } else{
         console.log("Ha vinto il computer, riprova pure");
     }
-
+    
     return sum
-
 }
 
 console.log(oddOrEven(oddEven, userNumber))
