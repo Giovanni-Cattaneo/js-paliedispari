@@ -43,7 +43,12 @@ let userNumber = parseInt(prompt("Scegli un numero da uno a cinque"))
 //     console.log("Ha vinto il computer, riprova pure");
 // }
 
-
+/**
+ * Data la scelta pari o dispari e scelto un numero per l'uente sceglierà un numero tra 1 e 5 per il computer li sommerà e vedrà se il risultato sia pari o dispari annunciando il risultato
+ * @param {string} oddEven 
+ * @param {number} userNumber 
+ * @returns {number}
+ */
 function oddOrEven(oddEven, userNumber){
 
     console.log(`Hai scelto ${oddEven}`);
