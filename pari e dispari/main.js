@@ -10,8 +10,12 @@ console.log(oddEven, userNumber, desktopNumber);
 
 let sum = userNumber + desktopNumber
 
+
 if (sum % 2 === 0) {
-    console.log("Il numero è pari");
+    let even = "il numero è pari"
 } else {
-    console.log("Il numero è dispari");
+    let odd = "Il numero è dispari"
 }
+
+console.log(even, odd);
+
