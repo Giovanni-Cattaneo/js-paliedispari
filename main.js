@@ -16,6 +16,11 @@
 
 let inputWord = prompt("Scrivi una parola")
 
+/**
+ * Data una parola la ribalta e ne verifica l'uguaglianza per stailire se sia o meno palindroma
+ * @param {string} inputWord 
+ * @returns {string}
+ */
 function findPalindrome(inputWord) {
     
 
@@ -32,7 +37,7 @@ function findPalindrome(inputWord) {
 
 }
 
-console.log(findPalindrome(inputWord));
+console.log(findPalindrome(inputWord));  // richiamo la funzione in un console.log()
 
 
 
