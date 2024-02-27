@@ -6,7 +6,7 @@ let userNumber = parseInt(prompt("Scegli un numero da uno a cinque"))
 
 let desktopNumber = parseInt(Math.floor(Math.random() * 5) + 1)
 
-console.log(oddEven);
+console.log(`Hai scelto ${oddEven}`);
 
 let inputEven = "Hai inserito un numero pari"
 
@@ -24,9 +24,9 @@ let sum = userNumber + desktopNumber
 
 console.log(sum);
 
-let even = "il numero è pari"
+let even = "il risultato della somma è pari"
 
-let odd = "Il numero è dispari"
+let odd = "Il risultato della somma è dispari"
  
 if (sum % 2 === 0) {
    
