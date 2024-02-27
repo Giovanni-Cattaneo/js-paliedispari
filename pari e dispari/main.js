@@ -62,9 +62,10 @@ function oddOrEven(oddEven, userNumber){
         console.log(inputOdd);
     }
 
-    let even = "il risultato della somma è pari"
+    let even = `il risultato della somma è pari ${sum}`
 
-    let odd = "Il risultato della somma è dispari"
+    let odd = `il risultato della somma è dispari ${sum}`
+
 
     if (sum % 2 === 0) {
         console.log(even);
